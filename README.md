@@ -9,5 +9,5 @@ How the script works
 6. New column with activities' names is added (and column with their ids is removed).
 7. Names of the variables (kept in variable "feat.lab") are slightly changed - "BodyBody" is replaced with single Body, brackets are removed and "-" are changed into ".".
 8. Columns in dataset created in 5. are named.
-9. Dataset is transformed into "long" format ("melt") and then observations are grouped by subject, activity and variable and for each gruop the average is calculated.
+9. Dataset is transformed into "long" format ("melt") and then observations are grouped by subject, activity and variable and for each group the average is calculated.
 10. This new dataset is written into tidy.txt file.
